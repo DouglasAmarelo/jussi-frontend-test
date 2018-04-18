@@ -2,9 +2,11 @@
 
 ## Considerações iniciais
 
+* Prazo 4/5 dias
 * Baixe o projeto incial no nosso repositório
 * Use a tecnologia, linguagem, biblioteca e ferramenta que preferir
 * Use a estrutura e organização que achar melhor para o projeto
+* Fique a vontade para implementar melhorias e/ou interações não previstas no layout
 * A entrega final, deve estar no seu GitHub
 
 ## Descrição das atividades
@@ -14,6 +16,12 @@
 * Os produtos devem ser exibidos consumindo as informações do arquivo estático `/data/products.json`
 * Qualquer interação deve ocorrer de maneira instantânea, sem o recarregamento da página
 * Considerar um documento com as instruções de como rodar o seu projeto (`readme.md`)
+
+## Funcionalidades esperadas
+* Adição de produtos no carrinho
+* Exclusão de produtos do carrinho
+* Alteração de quantidade de produtos
+* Soma dos valores totais
 
 ## Bônus
 
