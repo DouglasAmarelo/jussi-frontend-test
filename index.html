@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Teste</title>
+	<style>
+		* { box-sizing: border-box; }
+
+		body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+		.main {
+			border: 1px solid #ccc;
+			margin: 2em auto;
+			max-width: 1000px;
+			padding: 2em;
+		}
+
+		.product-list {
+			font-size: 0;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		.product-list li {
+			border: 1px solid #ccc;
+			display: inline-block;
+			font-size: 14px;
+			margin: 1em .5em;
+			padding: 1em;
+			width: calc( (100% - 3em) / 3 * 1);
+		}
+
+		.product-list img {
+			display: block;
+			margin: 0 auto;
+			height: 200px;
+			width: 200px;
+		}
+
+		.product-list a { display: block; }
+
+		.product-list .title {
+			background-color: #f1f1f1;
+			min-height: 30px;
+			text-transform: uppercase;
+			font-size: 14px;
+		}
+
+		.product-list p {
+			background-color: #dfdfdf;
+			min-height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<h1>Lorem</h1>
+
+		<ul class="product-list"></ul>
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script>
+		(function(){
+			'use strict'
+			let products;
+			let $products = $('.product-list');
+
+			$.ajax({
+				url: "//localhost:3000/products/",
+				context: document.body
+			}).done(function( data ) {
+				products = data;
+			}).then( init );
+
+			function init() {
+				$('body').addClass("done");
+				console.log( '#products', products );
+
+				listProducts();
+			};
+
+			function listProducts() {
+				for (const product in products) {
+					if (products.hasOwnProperty(product)) {
+						let element = products[product];
+						let listPrice = element.items[0].ListPrice.toLocaleString();
+						let price = element.items[0].Price.toLocaleString();
+
+						let template = `
+							<li data-product="${element.categoryId}">
+								<a href="${element.link}" title="${element.productName}">
+									<img src="public/images/${element.items[0].images[0].imageUrl}" alt="${element.productName}" data-id="${element.items[0].images[0].imageId}" height="200" width="200">
+								</a>
+								<h3 class="title">${element.productName}</h3>
+								${element.description}
+								<p class="preco-de">R$ ${listPrice}</p>
+								<p class="preco-por">R$ ${price}</p>
+							</li>
+						`;
+						console.log('product', product);
+
+
+
+						$products.append( template );
+					}
+				}
+			};
+
+		})();
+
+	</script>
+</body>
+
+</html>

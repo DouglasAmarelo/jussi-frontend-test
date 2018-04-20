@@ -1,7 +1,7 @@
 {
 	"products": [
 		{
-			"productId": "0001",
+			"id": "0001",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"productId": "0002",
+			"id": "0002",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -129,7 +129,7 @@
 			]
 		},
 		{
-			"productId": "0003",
+			"id": "0003",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -193,7 +193,7 @@
 			]
 		},
 		{
-			"productId": "0004",
+			"id": "0004",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -257,7 +257,7 @@
 			]
 		},
 		{
-			"productId": "0005",
+			"id": "0005",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -321,7 +321,7 @@
 			]
 		},
 		{
-			"productId": "0006",
+			"id": "0006",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -385,7 +385,7 @@
 			]
 		},
 		{
-			"productId": "0007",
+			"id": "0007",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -449,7 +449,7 @@
 			]
 		},
 		{
-			"productId": "0008",
+			"id": "0008",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -513,7 +513,7 @@
 			]
 		},
 		{
-			"productId": "0009",
+			"id": "0009",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -577,7 +577,7 @@
 			]
 		},
 		{
-			"productId": "0010",
+			"id": "0010",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -641,7 +641,7 @@
 			]
 		},
 		{
-			"productId": "0011",
+			"id": "0011",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -705,7 +705,7 @@
 			]
 		},
 		{
-			"productId": "0012",
+			"id": "0012",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -769,7 +769,7 @@
 			]
 		},
 		{
-			"productId": "0013",
+			"id": "0013",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -833,7 +833,7 @@
 			]
 		},
 		{
-			"productId": "0014",
+			"id": "0014",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -897,7 +897,7 @@
 			]
 		},
 		{
-			"productId": "0015",
+			"id": "0015",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -961,7 +961,7 @@
 			]
 		},
 		{
-			"productId": "0016",
+			"id": "0016",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -1025,7 +1025,7 @@
 			]
 		},
 		{
-			"productId": "0018",
+			"id": "0018",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
@@ -1089,7 +1089,7 @@
 			]
 		},
 		{
-			"productId": "0019",
+			"id": "0019",
 			"productName": "Geladeira Frost Free Duplex 500 litros cor Inox com Turbo Control",
 			"brand": "Jussi",
 			"linkText": "geladeira-frost-free-500-litros-brm58ak",
