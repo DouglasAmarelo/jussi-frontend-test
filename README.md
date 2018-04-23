@@ -28,3 +28,10 @@
 * Código performático e otimizado
 * Informações sendo persistidas no recarregamento da página
 * Documento simples, listando as tecnologias utilizadas e explicando o motivo da escolha
+
+
+## Entrega
+* Baixe o projeto incial no nosso repositório
+* Desenvolva o projeto
+* Suba o projeto em seu repositório
+* Nos envie o link para havaliarmos
